@@ -18,7 +18,6 @@ def input_control (user_input):
 
         else:
             print('You choose "Scissors"')
-
         #If user choose valid value write choice and return input
         return user_input
 
@@ -32,16 +31,7 @@ def input_control (user_input):
 def pc_choice():
     pc_rnd = random.choice(values)
     return pc_rnd
-    """
-    pc_rnd = random.randrange(3) #Random value for PC, (0, 1, 2)
 
-    if pc_rnd == 1:
-        return 'r'
-    elif pc_rnd == 2:
-        return 'p'
-    else:
-        return 's'
-    """
 
 #Function for match choices
 def match(user, pc):
